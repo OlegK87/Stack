@@ -24,10 +24,6 @@ class Stack:
 
 # Задача 2:
 
-# braces = ('()', '[]', '{}')
-#
-# stack = Stack()
-
 def balanced(string):
     for i in string:
         if i in '([{':
